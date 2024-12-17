@@ -503,7 +503,7 @@ internal_mint.block <-
                    tol = tol, iter=iter, max.iter=max.iter,
                    design = design,
                    scheme = scheme,  crit = crit, AVE = AVE, mat.c = mat.c,
-                   #defl.matrix = defl.matrix,
+                   defl.matrix = defl.matrix,
                    init = init,
                    scale = scale, tau = if(!is.null(tau)) tau.rgcca, study = study,
                    prop_expl_var = expl.A)
