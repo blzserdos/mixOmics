@@ -331,7 +331,7 @@ internal_mint.block <-
                         R = defla.result$resdefl
                         
                         if(!(all.outputs & one.model))
-                            defla.result$resdefl=NULL
+                            #defla.result$resdefl=NULL
                         #free memory, only if not used in the loop below
                     }
                     
